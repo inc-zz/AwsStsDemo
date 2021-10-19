@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestAwsSTS</name>
+    </assembly>
+    <members>
+        <member name="T:TestAwsSTS.Controllers.WeatherForecastController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TestAwsSTS.Controllers.WeatherForecastController.GetSTSAsync(System.String,System.String,System.Int32)">
+            <summary>
+            sts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestAwsSTS.Controllers.WeatherForecastController.GetSTSObjectList(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+             objects
+            </summary> 
+            <returns></returns>
+        </member>
+        <member name="T:TestAwsSTS.OssObjectHandleEnum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TestAwsSTS.StatementItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestAwsSTS.StatementItem.Action">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestAwsSTS.StatementItem.Effect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestAwsSTS.StatementItem.Resource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestAwsSTS.StatementItem.Sid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TestAwsSTS.Root">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:TestAwsSTS.Root.Statement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestAwsSTS.Root.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TestAwsSTS.Service.AWSSTSTest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TestAwsSTS.Service.AWSSTSTest.GetSTSAsync(TestAwsSTS.OssObjectHandleEnum,System.String,System.String,System.Int32)">
+            <summary>
+            Get StsToken
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestAwsSTS.Service.IAWSSTSTest.GetSTSAsync(TestAwsSTS.OssObjectHandleEnum,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <param name="bucketName"></param>
+            <param name="dirName"></param>
+            <param name="expireTime"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
